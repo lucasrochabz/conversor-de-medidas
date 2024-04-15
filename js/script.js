@@ -49,15 +49,20 @@ function convert() {
       break;
   }
 
-  outputElement.value = result;
+  const formattedResult = result.toLocaleString('pt-BR', {maximumFractionDigits: 2, useGrouping: true})
+
+  // outputElement.value = result;
+  outputElement.value = formattedResult;
 
   const fromLabel = fromElement.options[fromElement.selectedIndex].text;
   const toLabel = toElement.options[toElement.selectedIndex].text;
 
-  const message = `${inputElement.value} ${fromLabel} equivalem a ${result} ${toLabel}`;
+  const message = `${inputElement.value} ${fromLabel} equivalem a ${formattedResult} ${toLabel}`;
   messageElement.textContent = message;
 
   return;
 }
 
 convertButton.addEventListener('click', convert);
+
+
