@@ -15,3 +15,11 @@ Tecnologias utilizadas:
 - HTML5
 - CSS3
 - JavaScript
+
+## Como instalar?
+
+- Faça o clone ou download do projeto;
+- Abra seu editor de código.
+- Certifique-se de ter a extensão "Live Server" instalada.
+- No VS Code, abra o arquivo HTML principal do projeto.
+- Clique em "Go Live" no canto inferior direito para iniciar o servidor ao vivo.
