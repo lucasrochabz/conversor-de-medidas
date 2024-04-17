@@ -10,10 +10,10 @@
 Conversor de Unidades por enquanto só com a unidade de medida de comprimento.<br/>
 <a href="https://lucasrochabz.github.io/conversor-de-unidades/" target="_blank">Clique e confira.</a>
 
-Tecnologias utilizadas:
+## Tecnologias utilizadas:
 
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ## Como instalar?
