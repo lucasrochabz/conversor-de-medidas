@@ -1,6 +1,6 @@
 # Conversor de Medidas - v1.0<br/>
 <div align="center">
-  <img  src="./img/projeto-conversor-de-medidas.png" alt="Demo" />
+  <img  src="./img/projeto-conversor-de-medidas.png" alt="Interface do projeto" />
 </div>
 
 <br/>
